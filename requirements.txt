@@ -3,3 +3,4 @@ numpy==1.21.0
 opencv-python==4.5.4.58
 pillow==8.4.0
 pytesseract==0.3.9
+playwright==1.20.1
