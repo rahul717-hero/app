@@ -6,7 +6,7 @@ from PIL import Image
 import pytesseract
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 def run(playwright: Playwright):
-    browser = playwright.chromium.launch(headless=True)
+    browser = playwright.chromium.launch(headless=False)
     context = browser.new_context()
     # Open new page
     page = context.new_page()
