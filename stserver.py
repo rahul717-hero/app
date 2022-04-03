@@ -1,6 +1,10 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+import subprocess
+import sys
+subprocess.run([f"{sys.executable}","cpgm.py"])
+
 st.markdown("<h1 style='text-align: center; color: blue;'>DASHBOARD</h1>", unsafe_allow_html=True)
 
 
