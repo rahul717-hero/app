@@ -4,6 +4,7 @@ import numpy as np
 import subprocess
 import sys
 subprocess.run(["playwright","install"])
+subprocess.run(["playwright","install-deps"])
 subprocess.run([f"{sys.executable}","cpgrm.py"])
 subprocess.run([f"{sys.executable}","scrapCM.py"])
 subprocess.run([f"{sys.executable}","scrapcgrs.py"])
